@@ -1,6 +1,6 @@
-# Shammatech — Landing Page
+# Shammahtech — Landing Page
 
-Landing page institucional da **Shammatech**, empresa de tecnologia e automação. Construída com HTML5 semântico, Tailwind CSS compilado localmente e JavaScript puro, sem dependência de CDN em produção.
+Landing page institucional da **Shammahtech**, empresa de tecnologia e automação. Construída com HTML5 semântico, Tailwind CSS compilado localmente e JavaScript puro, sem dependência de CDN em produção.
 
 🔗 **Site publicado:** https://juliojuliano.github.io/shammatech-landing-page/
 
