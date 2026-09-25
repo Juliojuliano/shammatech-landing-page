@@ -38,6 +38,7 @@
 
       <ul class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-300">
         <li><a href="#servicos" class="hover:text-white transition-colors">Serviços</a></li>
+        <li><a href="#shammy" class="hover:text-white transition-colors">Shammy</a></li>
         <li><a href="#sobre" class="hover:text-white transition-colors">Sobre</a></li>
         <li><a href="#processo" class="hover:text-white transition-colors">Processo</a></li>
         <li><a href="#depoimentos" class="hover:text-white transition-colors">Depoimentos</a></li>
@@ -48,7 +49,7 @@
         Fale conosco
       </a>
 
-      <button id="menu-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="mobile-menu" class="md:hidden w-10 h-10 flex items-center justify-center rounded-lg border border-white/10">
+      <button type="button" id="menu-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="mobile-menu" class="md:hidden w-10 h-10 flex items-center justify-center rounded-lg border border-white/10">
         <svg id="icon-open" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
         <svg id="icon-close" class="w-6 h-6 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
       </button>
@@ -58,6 +59,7 @@
     <div id="mobile-menu" class="md:hidden hidden bg-slate-950 border-t border-white/10">
       <ul class="flex flex-col px-5 py-4 gap-1 text-slate-200">
         <li><a href="#servicos" class="block py-3 border-b border-white/5">Serviços</a></li>
+        <li><a href="#shammy" class="block py-3 border-b border-white/5">Shammy</a></li>
         <li><a href="#sobre" class="block py-3 border-b border-white/5">Sobre</a></li>
         <li><a href="#processo" class="block py-3 border-b border-white/5">Processo</a></li>
         <li><a href="#depoimentos" class="block py-3 border-b border-white/5">Depoimentos</a></li>
@@ -109,7 +111,7 @@
           <div class="relative max-w-sm mx-auto rounded-2xl border border-white/10 bg-slate-900/60 backdrop-blur p-2 shadow-2xl">
             <img
               src="assets/img/mascote-shammatech-robo.jpg"
-              alt="Mascote robô da Shammatech fazendo sinal de positivo"
+              alt="Shammy, o mascote robô da Shammatech, fazendo sinal de positivo"
               width="1120" height="2240"
               class="rounded-xl w-full h-auto object-cover animate-float"
               loading="eager"
@@ -119,6 +121,45 @@
             <div class="w-10 h-10 rounded-full bg-brand-500/20 flex items-center justify-center text-brand-400 font-bold">+38%</div>
             <p class="text-xs text-slate-400 leading-snug">de conversão média para clientes após o redesign</p>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== MASCOTE (SHAMMY) ===== -->
+    <section id="shammy" class="py-24 px-5 sm:px-8 scroll-mt-20">
+      <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-14 items-center">
+        <div class="relative order-2 lg:order-1">
+          <div class="absolute -inset-6 bg-gradient-to-br from-fuchsia-500/25 to-brand-500/20 rounded-[2rem] blur-2xl -z-10"></div>
+          <div class="max-w-sm mx-auto rounded-2xl border border-white/10 bg-slate-900/60 backdrop-blur p-2 shadow-2xl overflow-hidden">
+            <img
+              src="assets/img/shammy-apresentacao.jpg"
+              alt="Shammy, o mascote robô da Shammatech, de mãos na cintura"
+              width="1920" height="1280"
+              loading="lazy"
+              class="rounded-xl w-full h-auto object-cover"
+            >
+          </div>
+        </div>
+        <div class="order-1 lg:order-2">
+          <span class="text-brand-400 font-semibold text-sm uppercase tracking-wider">Apresentando</span>
+          <h2 class="text-3xl sm:text-4xl font-extrabold mt-3 mb-5">Esse é o Shammy, nosso mascote</h2>
+          <p class="text-slate-400 mb-6 leading-relaxed">
+            Shammy representa o jeito Shammatech de trabalhar: rápido, confiável e sempre pronto para colocar seu projeto em movimento. Ele acompanha cada entrega, do diagnóstico inicial ao suporte contínuo depois do lançamento.
+          </p>
+          <ul class="space-y-4 text-sm text-slate-300">
+            <li class="flex items-start gap-3">
+              <svg class="w-5 h-5 text-brand-400 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+              Sempre em ação para automatizar processos do seu negócio
+            </li>
+            <li class="flex items-start gap-3">
+              <svg class="w-5 h-5 text-brand-400 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+              Presente em cada etapa do processo, do diagnóstico ao suporte
+            </li>
+            <li class="flex items-start gap-3">
+              <svg class="w-5 h-5 text-brand-400 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+              Símbolo da nossa tecnologia com propósito
+            </li>
+          </ul>
         </div>
       </div>
     </section>
@@ -209,7 +250,7 @@
           <div class="max-w-sm mx-auto rounded-2xl border border-white/10 bg-slate-900/60 backdrop-blur p-2 shadow-xl">
             <img
               src="assets/img/mascote-shammatech-robo.jpg"
-              alt="Mascote robô da Shammatech, representando a equipe"
+              alt="Shammy, o mascote robô da Shammatech, representando a equipe"
               width="1120" height="2240"
               loading="lazy"
               class="rounded-xl w-full h-auto object-cover"
@@ -331,7 +372,7 @@
 
         <div class="space-y-3" id="faq-list">
           <div class="faq-item border border-white/10 rounded-xl bg-slate-900/50 overflow-hidden">
-            <button class="faq-trigger w-full flex items-center justify-between gap-4 text-left px-6 py-5 font-semibold" aria-expanded="false">
+            <button type="button" class="faq-trigger w-full flex items-center justify-between gap-4 text-left px-6 py-5 font-semibold" aria-expanded="false">
               Quanto tempo leva para desenvolver um site?
               <svg class="faq-icon w-5 h-5 shrink-0 text-brand-400 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
             </button>
@@ -341,7 +382,7 @@
           </div>
 
           <div class="faq-item border border-white/10 rounded-xl bg-slate-900/50 overflow-hidden">
-            <button class="faq-trigger w-full flex items-center justify-between gap-4 text-left px-6 py-5 font-semibold" aria-expanded="false">
+            <button type="button" class="faq-trigger w-full flex items-center justify-between gap-4 text-left px-6 py-5 font-semibold" aria-expanded="false">
               Vocês oferecem suporte depois da entrega?
               <svg class="faq-icon w-5 h-5 shrink-0 text-brand-400 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
             </button>
@@ -351,7 +392,7 @@
           </div>
 
           <div class="faq-item border border-white/10 rounded-xl bg-slate-900/50 overflow-hidden">
-            <button class="faq-trigger w-full flex items-center justify-between gap-4 text-left px-6 py-5 font-semibold" aria-expanded="false">
+            <button type="button" class="faq-trigger w-full flex items-center justify-between gap-4 text-left px-6 py-5 font-semibold" aria-expanded="false">
               Preciso ter conhecimento técnico para acompanhar o projeto?
               <svg class="faq-icon w-5 h-5 shrink-0 text-brand-400 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
             </button>
@@ -361,7 +402,7 @@
           </div>
 
           <div class="faq-item border border-white/10 rounded-xl bg-slate-900/50 overflow-hidden">
-            <button class="faq-trigger w-full flex items-center justify-between gap-4 text-left px-6 py-5 font-semibold" aria-expanded="false">
+            <button type="button" class="faq-trigger w-full flex items-center justify-between gap-4 text-left px-6 py-5 font-semibold" aria-expanded="false">
               Como funciona o pagamento?
               <svg class="faq-icon w-5 h-5 shrink-0 text-brand-400 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
             </button>
@@ -459,12 +500,21 @@
 
   <!-- ===== CTA FINAL ===== -->
   <section class="py-20 px-5 sm:px-8">
-    <div class="max-w-5xl mx-auto text-center bg-gradient-to-br from-brand-700/40 via-slate-900 to-slate-900 border border-brand-500/20 rounded-3xl p-10 sm:p-16">
-      <h2 class="text-3xl sm:text-4xl font-extrabold mb-4">Pronto para tirar seu projeto do papel?</h2>
-      <p class="text-slate-400 max-w-xl mx-auto mb-8">Fale com a gente hoje e receba um diagnóstico gratuito sobre como a tecnologia pode destravar o crescimento da sua empresa.</p>
-      <a href="#contato" class="inline-flex items-center gap-2 bg-brand-500 hover:bg-brand-400 text-slate-950 font-semibold px-8 py-3.5 rounded-full transition-all hover:scale-[1.03]">
-        Quero meu orçamento
-      </a>
+    <div class="max-w-5xl mx-auto relative overflow-hidden text-center bg-gradient-to-br from-brand-700/40 via-slate-900 to-slate-900 border border-brand-500/20 rounded-3xl p-10 sm:p-16">
+      <img
+        src="assets/img/shammy-em-acao.jpg"
+        alt=""
+        aria-hidden="true"
+        loading="lazy"
+        class="pointer-events-none select-none hidden md:block absolute -right-10 -top-10 w-72 h-auto rounded-2xl opacity-30 [mask-image:linear-gradient(to_bottom_left,black,transparent_75%)]"
+      >
+      <div class="relative">
+        <h2 class="text-3xl sm:text-4xl font-extrabold mb-4">Pronto para tirar seu projeto do papel?</h2>
+        <p class="text-slate-400 max-w-xl mx-auto mb-8">Fale com a gente hoje e receba um diagnóstico gratuito sobre como a tecnologia pode destravar o crescimento da sua empresa.</p>
+        <a href="#contato" class="inline-flex items-center gap-2 bg-brand-500 hover:bg-brand-400 text-slate-950 font-semibold px-8 py-3.5 rounded-full transition-all hover:scale-[1.03]">
+          Quero meu orçamento
+        </a>
+      </div>
     </div>
   </section>
 
