@@ -1,7 +1,7 @@
 {
   "name": "shammatech-landing-page",
   "version": "1.0.0",
-  "description": "Landing page institucional da Shammatech — tecnologia e automação.",
+  "description": "Landing page institucional da Shammahtech — tecnologia e automação.",
   "private": true,
   "scripts": {
     "build:css": "tailwindcss -i ./src/input.css -o ./assets/css/tailwind.css --minify",
