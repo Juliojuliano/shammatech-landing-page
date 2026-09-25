@@ -1,0 +1,19 @@
+{
+  "name": "shammatech-landing-page",
+  "version": "1.0.0",
+  "description": "Landing page institucional da Shammatech — tecnologia e automação.",
+  "private": true,
+  "scripts": {
+    "build:css": "tailwindcss -i ./src/input.css -o ./assets/css/tailwind.css --minify",
+    "watch:css": "tailwindcss -i ./src/input.css -o ./assets/css/tailwind.css --watch",
+    "serve": "python3 -m http.server 5500"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Juliojuliano/shammatech-landing-page.git"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.19"
+  }
+}
