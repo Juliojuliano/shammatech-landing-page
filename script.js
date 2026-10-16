@@ -190,3 +190,21 @@
     }, 1200);
   });
 })();
+
+// Shammy do Hero: toca uma vez e fica parado no último quadro (sorrindo de olhos fechados)
+(function () {
+  const video = document.querySelector('video[poster*="shammy-hero"]');
+  if (!video) return;
+
+  const freeze = () => video.classList.remove('animate-float');
+  video.addEventListener('ended', freeze);
+
+  // Quem prefere menos movimento já vê o quadro final, sem animação
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    video.addEventListener('loadedmetadata', () => {
+      video.pause();
+      video.currentTime = video.duration;
+      freeze();
+    });
+  }
+})();
